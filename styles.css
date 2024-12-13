@@ -1,24 +1,13 @@
+table {
+  width: 100%;
+  text-align: center;
+}
 
-/* Your CSS Code here. */
-<style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
+td {
+  vertical-align: middle;
+}
 
-        th, td {
-            border: 1px solid black;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .black-cell {
-            background-color: black;
-            color: white;
-        }
-
-        a {
-            text-decoration: none;
-            color: purple;
-        }
-    </style>
+.black-background{
+	background-color:black;
+	color:white;
+}
