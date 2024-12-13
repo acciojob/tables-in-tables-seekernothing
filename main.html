@@ -8,108 +8,88 @@
 	  
   </head>
   <body>
-    <table border
-      <table>
-		  <tbody>
-			  <tr>
-				  <td>
-					  <table border>
-						  <thead>
-							  <tr>
-								  <th colspan="2">Nested Table 2</th>
-							  </tr>
-						  </thead>
-						  <tbody>
-							  <tr>
-								  <td>
-									 <b>Column 1</b> 
-								  </td>
-                                <td>
-									<b>Column 2</b>
-								</td>
-								  
-							  </tr>
-						  </tbody>
-						  <tbody>
-							  <tr>
-								  <td>
-									  abc
-								  </td>
+    <table border>
+    <tbody>
+      <!-- First Row -->
+      <tr>
+        <!-- Nested Table 2 -->
+        <td>
+          <table border>
+            <thead>
+              <tr>
+                <th colspan="2">Nested Table 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>Column 1</b></td>
+                <td><b>Column 2</b></td>
+              </tr>
+              <tr>
+                <td>abc</td>
+                <td>def</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <!-- Nested Table 1 -->
+        <td>
+          <table border>
+            <thead>
+              <tr>
+                <th>Nested Table 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
 
-								  <td>
-									  def
-								  </td>
-							  </tr>
-						  </tbody>
-					  </table>
-				  </td>
-				  <td>
-					  <table border>
-						  <thead>
-							  <tr>
-								  <th> Nested Table 1</th>
-							  </tr>
-						  </thead>
-						  <tbody>
-							  <tr>
-								  <td>
-									  <ul>
-										  <li>List item 1</li>
-										  <li>List item 2</li>
-										  <li>List item 3</li>
-									  </ul>
-								  </td>
-							  </tr>
-						  </tbody>
-					  </table>
-				  </td>
-			  </tr>
-		  </tbody>
-
-		   <tbody>
-			  <tr>
-				  <td>
-					  <table border>
-						  <thead>
-							  <tr>
-								  <th colspan="2"> Nested Table 3</th>
-							  </tr>
-						  </thead>
-						  <tbody>
-							<tr>
-								<td>
-								<a href="#">Nested Table</a>
-								</td>
-                                
-								<td>
-									Demo Continued
-								</td>
-							</tr>
-						  </tbody>
-					  </table>
-				  </td>
-				  <td>
-					  <table border>
-						  <thead>
-							  <tr>
-								  <th >
-									  Nested Table 4
-								  </th>
-							  </tr>
-						  </thead>
-
-						  <tbody>
-							  <tr>
-								  <td class="black-background">
-									  HTML
-								  </td>
-							  </tr>
-						  </tbody>
-					  </table>
-				  </td>
-			  </tr>
-		  </tbody>
-		  
-	  </table>
+      <!-- Second Row -->
+      <tr>
+        <!-- Nested Table 3 -->
+        <td>
+          <table border>
+            <thead>
+              <tr>
+                <th colspan="2">Nested Table 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">Nested Table</a></td>
+                <td>Demo Continued</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <!-- Nested Table 4 -->
+        <td>
+          <table border>
+            <thead>
+              <tr>
+                <th>Nested Table 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="black-background">HTML</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
   </body>
 </html>

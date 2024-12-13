@@ -1,13 +1,16 @@
 table {
-  width: 100%;
-  text-align: center;
-}
+      width: 100%;
+      text-align: center;
+      border-collapse: collapse;
+    }
 
-td {
-  vertical-align: middle;
-}
+    td, th {
+      border: 1px solid black;
+      padding: 8px;
+      vertical-align: middle;
+    }
 
-.black-background{
-	background-color:black;
-	color:white;
-}
+    .black-background {
+      background-color: black;
+      color: white;
+    }
